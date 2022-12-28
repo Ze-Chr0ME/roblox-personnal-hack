@@ -67,14 +67,14 @@ LINE2.TextSize = 14.000
 StormHubBUTTON.Name = "StormHubBUTTON"
 StormHubBUTTON.Parent = Main
 StormHubBUTTON.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-StormHubBUTTON.Position = UDim2.new(0.0670116618, 0, 0.831936061, 0)
+StormHubBUTTON.Position = UDim2.new(0.0670116618, 0, 0.494634479, 0)
 StormHubBUTTON.Size = UDim2.new(0, 80, 0, 30)
 StormHubBUTTON.Font = Enum.Font.SourceSans
 StormHubBUTTON.Text = "Storm Hub"
 StormHubBUTTON.TextColor3 = Color3.fromRGB(0, 0, 0)
 StormHubBUTTON.TextSize = 14.000
 StormHubBUTTON.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://pastebin.com/raw/ZRc0HXcX"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Ze-Chr0ME/roblox-personnal-hack/scripts/AFK"))()
 end)
 
 TextButton.Parent = Main
