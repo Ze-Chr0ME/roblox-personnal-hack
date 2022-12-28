@@ -1,0 +1,110 @@
+-- kek
+-- v1.2.0
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local CloseBUTTON = Instance.new("TextLabel")
+local CreditsAndMore = Instance.new("TextLabel")
+local MM2 = Instance.new("TextLabel")
+local OwlHubBUTTON = Instance.new("TextButton")
+local Scripts = Instance.new("TextLabel")
+local LINE = Instance.new("TextLabel")
+local LINE2 = Instance.new("TextLabel")
+local InfYieldBUTTON = Instance.new("TextButton")
+local RevizV2BUTTON = Instance.new("TextButton")
+local StormHubBUTTON = Instance.new("TextButton")
+local EclipseGUIBUTTON = Instance.new("TextButton")
+local VynixuGUIBUTTON = Instance.new("TextButton")
+local MM2AdminPanelBUTTON = Instance.new("TextButton")
+local IDKJustAScriptBUTTON = Instance.new("TextButton")
+local Creditsandmore1 = Instance.new("TextLabel")
+local Creditsandmore2 = Instance.new("TextLabel")
+local Creditsandmore3 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.fromRGB(98, 98, 98)
+Main.Position = UDim2.new(0.265741736, 0, 0.327073544, 0)
+Main.Size = UDim2.new(0, 457, 0, 252)
+Main.Active = true
+Main.Draggable = true
+
+CloseBUTTON.Name = "CloseBUTTON"
+CloseBUTTON.Parent = Main
+CloseBUTTON.BackgroundColor3 = Color3.fromRGB(108, 213, 187)
+CloseBUTTON.Position = UDim2.new(-0.00121667981, 0, -0.00229153037, 0)
+CloseBUTTON.Size = UDim2.new(0, 457, 0, 34)
+CloseBUTTON.Font = Enum.Font.SourceSans
+CloseBUTTON.Text = "PERSONNAL HACK HUB"
+CloseBUTTON.TextColor3 = Color3.fromRGB(0, 0, 0)
+CloseBUTTON.TextSize = 14.000
+
+Scripts.Name = "Scripts"
+Scripts.Parent = Main
+Scripts.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Scripts.Position = UDim2.new(-0.00121667981, 0, 0.180807054, 0)
+Scripts.Size = UDim2.new(0, 144, 0, 21)
+Scripts.Font = Enum.Font.SourceSans
+Scripts.Text = "Scripts"
+Scripts.TextColor3 = Color3.fromRGB(0, 0, 0)
+Scripts.TextSize = 14.000
+
+LINE.Name = "LINE"
+LINE.Parent = Main
+LINE.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LINE.Position = UDim2.new(0.312910259, 0, 0.261904746, 0)
+LINE.Size = UDim2.new(0, 1, 0, 185)
+LINE.Font = Enum.Font.SourceSans
+LINE.Text = ""
+LINE.TextColor3 = Color3.fromRGB(0, 0, 0)
+LINE.TextSize = 14.000
+
+LINE2.Name = "LINE2"
+LINE2.Parent = Main
+LINE2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LINE2.Position = UDim2.new(0.669584215, 0, 0.265873015, 0)
+LINE2.Size = UDim2.new(0, 1, 0, 185)
+LINE2.Font = Enum.Font.SourceSans
+LINE2.Text = ""
+LINE2.TextColor3 = Color3.fromRGB(0, 0, 0)
+LINE2.TextSize = 14.000
+
+StormHubBUTTON.Name = "StormHubBUTTON"
+StormHubBUTTON.Parent = Main
+StormHubBUTTON.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+StormHubBUTTON.Position = UDim2.new(0.0670116618, 0, 0.831936061, 0)
+StormHubBUTTON.Size = UDim2.new(0, 80, 0, 30)
+StormHubBUTTON.Font = Enum.Font.SourceSans
+StormHubBUTTON.Text = "Storm Hub"
+StormHubBUTTON.TextColor3 = Color3.fromRGB(0, 0, 0)
+StormHubBUTTON.TextSize = 14.000
+StormHubBUTTON.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://pastebin.com/raw/ZRc0HXcX"))()
+end)
+
+TextButton.Parent = Main
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.918602824, 0, -0.00319522619, 0)
+TextButton.Size = UDim2.new(0, 36, 0, 34)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 30.000
+
+-- Scripts:
+
+local function KYNEM_fake_script() -- CloseBUTTON.Script 
+	local script = Instance.new('Script', CloseBUTTON)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		game.Players.LocalPlayer.PlayerGui.ScreenGui.Frame.Visible = false
+	end)
+end
+coroutine.wrap(KYNEM_fake_script)()
